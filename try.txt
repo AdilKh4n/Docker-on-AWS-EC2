@@ -1,0 +1,5 @@
+md5sum takes filenames as parameters.
+
+Iif you have a string you want to calculate the hash of, you need to pass it to md5sum's standard input via a pipe:
+
+Results are not definitive as we may have many constraints like the fact of warming memory and CPU before execution, the number of threads & processes to use, the nature of the task to execute ..etc.
